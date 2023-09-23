@@ -17,5 +17,5 @@ prototypes only).
 - Register student
 - Print student's info
 - Calculate GPA
-# Flowchart Link for the project:
+# Flowchart link for the project:
   https://drive.google.com/file/d/1UpTfAnqdSJe6SZjAd00aUl3_KZBzfA_p/view
