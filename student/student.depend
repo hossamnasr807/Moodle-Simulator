@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1685577783 source:c:\users\hossa\onedrive\desktop\student\main.cpp
+	"student.h"
+	<iostream>
+	<string>
+
+1685167701 c:\users\hossa\onedrive\desktop\student\student.h
+	<string>
+
+1685204716 source:c:\users\hossa\onedrive\desktop\student\student.cpp
+	<iostream>
+	"student.h"
+

@@ -1,0 +1,61 @@
+The student.cpp file contains the implementation of the member functions for the CStudent and CStudent::CPG_Student classes, as well as the CCourse class. 
+These classes handle student and course information, providing functions to set and retrieve various attributes. 
+
+Below is the documentation for the functions in the student.cpp file:
+
+CStudent Class
+Member Variables
+
+string student_name : a variable for the name of the student.
+int student_ID : a variable for the ID of the student.
+string student_major : a variable for the major of the student.
+string student_email_username : a variable for the email username of the student.
+string student_email_password : a variable for the email password of the student.
+float student_grades[] : an array for the grades of the student in different subjects.
+float student_score : a variable for the calculated score or GPA of the student.
+
+Member Functions
+
+void setStudentName(string name): sets the name of the student.
+string getStudentName(): returns the name of the student.
+void SetEmailUsername(string email): sets the email username of the student.
+string getStudentEmailUsername(): returns the email username of the student.
+void setStudentEmailPassword(string password): Sets the email password of the student.
+string getStudentEmailPassword(): returns the email password of the student.
+void setStudentMajor(string major): sets the major of the student.
+string getStudentMajor(): returns the major of the student.
+void set_Student_ID(int id): sets the ID of the student.
+int get_Student_ID(): returns the ID of the student.
+void set_Student_Grades(float *grades): sets the grades of the student using floats' array.
+float* get_Student_Grades(): returns the grades of the student as an array of floats.
+float get_Student_Score(): returns the calculated score or GPA of the student.
+void set_Student_Score(float result): sets the calculated score or GPA of the student.
+void registerStudent(): prompts the user to input the student's information (name, ID, major, email, password, and grades) and sets them accordingly.
+float calculateGPA(): calculates the GPA of the student based on their grades.
+void getStudentInfo(): prints the student's information (name, ID, major, email, password, grades, score) to the console.
+
+CStudent::CPG_Student Class
+Additional Member Variables
+
+pg_student_job_title (string): Represents the job title of the postgraduate student.
+Additional Member Functions
+string get_PG_Student_Job_Title(): Retrieves the job title of the postgraduate student.
+void set_PG_Student_Job_Title(string jobTitle): Sets the job title of the postgraduate student.
+
+CCourse Class
+Member Variables
+
+course_name (string): Represents the name of the course.
+course_code (string): Represents the code of the course.
+course_cost (float): Represents the cost of the course.
+
+Member Functions
+
+string get_Course_Name(): returns the name of the course.
+string get_Course_Code(): returns the code of the course.
+float get_Course_Cost(): returns the cost of the course.
+void set_Course_Name(string name): Sets the name of the course.
+void set_Course_Code(string code): Sets the code of the course.
+void set_Course_Cost(float cost): Sets the cost of the course.
+void add_Course(): Prompts the user to input the course's information (name, code, and cost) and sets them accordingly.
+void get_Course_Info(): Prints the course's information (name, code, and cost).

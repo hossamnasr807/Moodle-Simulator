@@ -1,0 +1,35 @@
+Overview
+
+The main.cpp file is the entry point of the program. 
+It contains the main() function, which manages the registration and retrieval of information for students and courses. 
+The program allows registering undergraduate and postgraduate students, adding courses, and displaying the information for both students and courses.
+
+Dependencies
+The code includes the following dependencies:
+
+"student.h": A header file that likely contains the definition of the CStudent and CCourse classes.
+<iostream>: The standard input/output stream library, used for console input and output operations.
+<string>: The string library, used for working with string objects.
+using namespace std;: A using directive that allows using names from the std namespace without explicitly qualifying them.
+
+main() Function
+The main() function serves as the entry point of the program. It performs the following steps:
+
+Prompt the user to enter the number of students to register (n_students).
+Prompt the user to enter the number of courses to add (n_courses).
+Declare arrays of CStudent and CCourse objects with sizes based on the user input.
+Iterate over the array of students and register each student using the registerStudent() function of the CStudent class.
+Iterate over the array of courses and add each course using the add_Course() function of the CCourse class.
+Iterate over the array of students and display the information of each student using the getStudentInfo() function of the CStudent class.
+Iterate over the array of courses and display the information of each course using the get_Course_Info() function of the CCourse class.
+Prompt the user to enter the number of postgraduate students to register (n_pg_students).
+Declare an array of CStudent::CPG_Student objects with a size based on the user input.
+Iterate over the array of postgraduate students and register each student using the registerStudent() function of the CStudent::CPG_Student class.
+Prompt the user to enter the job title of each postgraduate student.
+Display the information of each postgraduate student and their corresponding job title.
+
+Code Structure:
+The code follows a procedural structure, with the main logic contained within the main() function. 
+The key steps, such as registering students, adding courses, and displaying information, are performed using loops and function calls.
+
+The code demonstrates the usage of classes, objects, arrays, and member functions to manage student and course information.
